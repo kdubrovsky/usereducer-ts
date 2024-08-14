@@ -1,0 +1,7 @@
+.task {
+  display: flex;
+  padding: 5px;
+  gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid lightblue;
+}
