@@ -4,8 +4,10 @@ export interface Task {
   done: boolean;
 }
 
+type ReducerActionTypes = 'task/add'| 'task/delete' | 'task/switch' | 'task/edit';
+
 export interface ReducerAction {
-  type: string;
+  type: ReducerActionTypes;
   payload: {
     id?: string;
     text?: string;
